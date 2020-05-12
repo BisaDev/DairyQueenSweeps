@@ -1,0 +1,37 @@
+.heading {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: $primary-font-black;
+}
+
+.heading-secondary {
+    font-size: 16px;
+    letter-spacing: -.16px;
+    font-family: $primary-font-heavy;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.heading-tertiary {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 1.22;
+    letter-spacing: -.09px;
+    font-family: $primary-font-heavy;
+
+}
+
+
+.heading-quaternary {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.09px;
+    font-family: $primary-font-light;
+}
+
+.heading-quinary {
+    font-size: 14px;
+    line-height: 1.38;
+}

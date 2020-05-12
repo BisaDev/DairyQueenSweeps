@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=""/>
+
+    <title>DQ Sweepstakes Game</title>
+
+    <link href="dist/app.css" rel="stylesheet">
+
+</head>
+<body class="game-wrapper" style="position:fixed">
+<div class="coke-banner">
+    <div class="logo-banner">
+        <img src="dist/images/coke-logo.png" alt="Coke Logo" class="coke-logo">
+    </div>
+    <div class="banner-copy">
+        <span class="coke-copy">Invites You to Participate in</span>
+    </div>
+</div>
+<div class="game text-center">
+    <div class="game-title-group">
+        <div class="game-logo"><img src="dist/images/happiest_sweeps.png" alt="Happiest sweeps"></div>
+        <h2 class="game-heading heading-secondary pre">Enter the Sweeps by feeding hAPPy&trade;!</h2>
+    </div>
+    <div class="game-sprite-group">
+        <div class="sprite-size game-sprite-default"></div>
+        <div class="sprite-size game-sprite-chomp"></div>
+        <div class="sprite-size game-sprite-selected"></div>
+    </div>
+    <div class="pre set-bottom">
+        <div class="arrow-group flex-center">
+            <svg width="33.41" height="40">
+                <path class="arrow blinkDelay-3" d="M32.66 14.05L17.23 6.84 29.24.73l3.42 13.32z"></path>
+                <path class="arrow blinkDelay-2" d="M31.87 24.22L9.84 14.64 26.3 7.68l5.57 16.54z"></path>
+                <path class="arrow blinkDelay-1" d="M30.33 39.06L1.25 26.09l20.91-8.91 8.17 21.88z"></path>
+            </svg>
+            <svg width="34.58" height="37.52">
+                <path class="arrow blinkDelay-1" d="M17.29 19.36l16.15 17.66H1.14l16.15-17.66z"></path>
+                <path class="arrow blinkDelay-2" d="M17.65 8.89l12.6 14.34H5.04L17.65 8.89z"></path>
+                <path class="arrow blinkDelay-3" d="M17.65.77l10.11 11.92H7.54L17.65.77z"></path>
+            </svg>
+            <svg width="33.41" height="40">
+                <path class="arrow blinkDelay-3" d="M4.17.73l12.01 6.11L.75 14.05 4.17.73z"></path>
+                <path class="arrow blinkDelay-2" d="M7.11 7.68l16.46 6.96-22.03 9.58L7.11 7.68z"></path>
+                <path class="arrow blinkDelay-1" d="M11.26 17.18l20.9 8.91L3.08 39.06l8.18-21.88z"></path>
+            </svg>
+        </div>
+        <div class="game-inputs-group flex-center">
+            <div class="game-input" ><img src="dist/images/cone.png" id="cone" alt="cone"></div>
+            <div class="game-input" ><img src="dist/images/curds.png" id="curds" alt="curds"></div>
+            <div class="game-input" ><img src="dist/images/coke.png" id="coke" alt="Soda"></div>
+        </div>
+        <div class="visit">Visit a participating DQ® location daily for
+            <br>another chance to win! No purchase necessary.
+            <br>Sweepstakes ends 6/30/19. <a class="rules" href="http://www.dq.com/happiestsweepsever/rules"><strong>Official Rules</strong></a>
+        </div>
+    </div>
+    <div class="game-result-group -hidden">
+        <h3 class="heading-tertiary game-result-group-first game-submit-title -hidden">Tasty choice!</h3>
+        <form id="game-form" class="game-result-group-first -hidden">
+            <input name="branch-io-url" type="hidden" value="https://m.dq.com/Sweeps19entryfrommicrosite">
+            <button class="btn" type="submit">submit entry</button>
+        </form>
+        <h3 class="heading-tertiary submit-visit game-result-group-second -hidden">Visit a participating DQ® location daily for another chance to
+            win!</h3>
+        <h4 class="heading-quaternary game-submit-prizes game-result-group-second -hidden">Prizes Every Day & One Epic Trip Weekly</h4>
+        <div class="game-submit-disclaimer game-result-group-first -hidden">No purchase necessary. Sweepstakes ends 6/30/19.<br>
+            <a class="rules" href="http://www.dq.com/happiestsweepsever/rules">Official Rules</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="dist/app.js"></script>
+</body>
+</html>
+

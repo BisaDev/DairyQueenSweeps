@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content=""/>
+
+    <title>DQ Sweepstakes Form</title>
+
+    <link href="dist/app.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="coke-banner">
+    <div class="logo-banner">
+        <img src="dist/images/coke-logo.png" alt="Coke Logo" class="coke-logo">
+    </div>
+    <div class="banner-copy">
+        <span class="coke-copy">Invites You to Participate in</span>
+    </div>
+</div>
+<div class="container">
+    <div class="header text-center">
+        <div class="happiest-logo"><img src="dist/images/logo-smiley-face.png" alt="Happiest sweeps"></div>
+        <h5 class="heading">#happytastesgood</h5>
+    </div>
+    <form class="form" id="dq-form">
+        <div class="form-group">
+            <div class="form-field">
+                <input id="emailAddress" name="emailAddress" maxlength="50" class="input-field required" tabindex="1">
+                <label for="emailAddress" class="input-label">email address </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-field">
+                <input id="confirmEmail" name="confirmEmail" maxlength="50" class="input-field required" tabindex="2">
+                <label for="confirmEmail" class="input-label ">confirm email address</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-field">
+                <input id="fullName" name="fullName" class="input-field required" tabindex="3">
+                <label for="fullName" class="input-label ">full name </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-field">
+                <input id="mailingAddress" name="mailingAddress" class="input-field required" tabindex="4">
+                <label for="mailingAddress" class="input-label ">mailing address</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-field">
+                <input id="city" name="city" class="input-field required" tabindex="5">
+                <label for="city" class="input-label ">city </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-field">
+                <input name="state" class="input-field required state" tabindex="-1">
+                <label class="input-label">state </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="form-field">
+                <input id="zip-code" type="tel" name="zip-code" class="input-field required" tabindex="6">
+                <label for="zip-code" class="input-label ">Zip Code </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="form-field">
+                <input id="phone" type="tel" name="phone" class="input-field required" tabindex="7">
+                <label for="phone" class="input-label">phone </label>
+            </div>
+        </div>
+
+        <div class="agreement-section">
+            <div class="checkbox-field">
+                <input type="checkbox" name="aboveEighteen" class="checkbox required">
+                <label class="input-label ">I am 18 years old or older</label>
+            </div>
+            <div class="checkbox-field">
+                <input type="checkbox" name="termsAndConditions" class="checkbox required">
+                <label class="input-label">I have read & agree to the <a class="rules" href="https://www.dq.com/happiestsweepsever/rules">Official Rules</a></label>
+            </div>
+        </div>
+        <input type="hidden" name="customerId">
+        <input type="hidden" name="redirectUrl" value="/game.html">
+        <div class="disclaimer">
+            <p class="message">NO PURCHASE NECESSARY TO ENTER OR WIN. VOID IN TX AND WHERE PROHIBITED BY LAW.
+                Sweepstakes begins on 6/3/2019 and ends on 6/30/2019. For complete entry instructions and eligibility details,
+                visit <a class="rules" href="http://www.dq.com/happiestsweepsever/rules">Official Rules.</a> Sponsor: International Dairy Queen, Inc., 7505 Metro Blvd. Minneapolis, MN 55439.</p>
+        </div>
+        <button class="btn" type="submit">PLAY & ENTER</button>
+    </form>
+    <div class="bottom-promotion-copy">
+        <h3 class="heading-tertiary">Visit a participating DQ® location daily for your chance to win!</h3>
+        <span class="heading-quaternary">Prizes Every Day & One Epic Trip Weekly</span>
+    </div>
+    <div class="cache">
+        <div class="game-sprite-default"></div>
+        <div class="game-sprite-chomp"></div>
+        <div class="game-sprite-coke"></div>
+        <div class="game-sprite-blizzard"></div>
+        <div class="game-sprite-burger"></div>
+    </div>
+</div>
+<div class="modal-container modal">
+    <div class="modal-content modal">
+        <h5 class="modal-header heading">Select  your  state</h5>
+        <div class="modal-close">
+            <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35"><defs><style>.cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round}</style></defs><circle cx="17.5" cy="17.5" r="17" stroke-miterlimit="10" fill="none" stroke="#fff"/><path class="cls-2" d="M22 13l-9 9M22 22l-9-9"/></svg>
+        </div>
+        <div class="modal-item-container text-center">
+        </div>
+        <div class="canvas">
+            <div class="modal-display-container text-center"></div>
+        </div>
+        <div class="selection-area modal-item"></div>
+        <div class="click-area modal-item"></div>
+    </div>
+    <a class="modal-bg modal"></a>
+</div>
+<script type="text/javascript" src="dist/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+$font-path: '/dist/fonts/';
+
+@font-face {
+    font-family: 'Pluto Regular';
+    src: url($font-path + 'PlutoRegular.woff2') format('woff2'),
+    url($font-path + 'PlutoRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pluto Bold';
+    src: url($font-path + 'PlutoBold.woff2') format('woff2'),
+    url($font-path + 'PlutoBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pluto Black';
+    src: url($font-path + 'PlutoBlack.woff2') format('woff2'),
+    url($font-path + 'PlutoBlack.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pluto Heavy';
+    src: url($font-path + 'PlutoHeavy.woff2') format('woff2'),
+    url($font-path + 'PlutoHeavy.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pluto Light';
+    src: url($font-path + 'PlutoLight.woff2') format('woff2'),
+    url($font-path + 'PlutoLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUItext Regular';
+    src: url($font-path + 'SFUIText-Regular.woff2') format('woff2'),
+    url($font-path + 'SFUIText-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SharpSans-Bold';
+    src: url($font-path + 'SharpSans-Bold.woff2') format('woff2'),
+    url($font-path + 'SharpSans-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

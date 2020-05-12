@@ -1,0 +1,25 @@
+.coke-banner {
+    margin: 0;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding: 10px 5px 4px 5px;
+    background-color: $alizarinCrimson;
+
+    .logo-banner {
+        width: 100px;
+        margin: 0 auto;
+    }
+
+    .banner-copy {
+        margin-top: 4px;
+
+        .coke-copy {
+            font-size: 11px;
+            line-height: 1.36;
+            letter-spacing: 0.07px;
+            text-transform: uppercase;
+            font-family: $tertiary-font;
+        }
+    }
+}

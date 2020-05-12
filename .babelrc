@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "FirefoxAndroid >= 64",
+            "Chrome >= 70",
+            "ChromeAndroid >= 70",
+            "Android >= 4.4.4",
+            "iOS >= 8",
+            "Samsung > 7"
+          ]
+        }
+      }
+    ]
+  ]
+}

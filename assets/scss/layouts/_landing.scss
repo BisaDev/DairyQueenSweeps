@@ -1,0 +1,120 @@
+.happiest-logo {
+    margin: 0 16vw;
+}
+
+.landing {
+    padding: 27px 1vw;
+
+    .heading-copy {
+
+        .title {
+            font-size: 24px;
+            margin-top: 30px;
+            line-height: 1.08;
+            margin-bottom: 10px;
+            letter-spacing: -.15px;
+            text-transform: uppercase;
+            font-family: $primary-font-black;
+        }
+
+        .heading-secondary-light {
+            text-transform: capitalize;
+        }
+
+        span{
+            font-size: 14px;
+        }
+    }
+
+    .promotion-images {
+
+
+        .universal-studios {
+            margin-top: 35px;
+
+
+        }
+
+        .phone-application {
+            margin-top: 10px;
+
+
+        }
+    }
+
+    .bottom-copy {
+        margin: 0 5px;
+
+        .bottom-title {
+            font-size: 20px;
+            letter-spacing: -0.11px;
+            text-transform: uppercase;
+            font-family: $primary-font-black;
+        }
+    }
+
+    .download {
+        display: flex;
+        padding: 0 25px;
+        margin-top: 27px;
+        flex-flow: column;
+        justify-content: center;
+
+
+    }
+
+    .download-container {
+        display: flex;
+        margin: 25px 15px;
+        justify-content: center;
+
+        .download-application:nth-child(2) {
+
+            margin-left: 24px;
+        }
+    }
+
+    .small-copy {
+        color: $black;
+        font-size: 13px;
+    }
+
+    .official-rules {
+        width: 200px;
+        margin: 5px auto;
+
+        a {
+            color: $black;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-decoration: none;
+        }
+
+        .rules-copy, .faq-copy {
+            color: $black;
+            font-size: 13px;
+            letter-spacing: -0.5px;
+            font-family: $primary-font;
+        }
+
+        .rules-copy {
+            margin-right: 20px;
+            padding-right: 20px;
+            border-right: 1px solid $black;
+        }
+    }
+}
+
+
+.nascar {
+    margin-top: 32px;
+}
+
+.center-justified {
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.titlecase{
+    text-transform: capitalize;
+}
